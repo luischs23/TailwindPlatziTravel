@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    .navbar{
+      @apply text-base font-bold text-primary dark:text-white
+    }
+    .card {
+      @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition hover:-translate-y-4 hover:shadow-xl;
+    }
+    .cardTitle{
+      @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white;
+    }
+  }
